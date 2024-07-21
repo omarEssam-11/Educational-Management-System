@@ -93,9 +93,3 @@ Educational Management System Documentation
 Educational Management System Documentation
 `description`
  - Methods: `push_solution()`
-```python
-Doctor.create_new_doctor('dr_smith', 'password123', '654321', 'Dr. Smith', 'smith@example.com')
-doctor = [d for d in all_doctors if d.username == 'dr_smith'][0]
-doctor.create_course()
-doctor.create_assignment('CS101', 'Assignment 1', 'Description of Assignment 1', 100)
-```
