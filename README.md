@@ -10,7 +10,6 @@ Table of Contents
  - Doctor Functionalities
 4. Code Structure
 5. Classes and Methods
-6. Example Usage
 1. Introduction
 The Educational Management System is a Python-based project designed to facilitate the
 management of educational courses, assignments, and student enrollments. The system provides
@@ -94,14 +93,6 @@ Educational Management System Documentation
 Educational Management System Documentation
 `description`
  - Methods: `push_solution()`
-6. Example Usage
-#### Creating a new student and registering in a course:
-```python
-Student.create_new_student('john_doe', 'password123', '123456', 'John Doe', 'john@example.com')
-student = [s for s in all_students if s.username == 'john_doe'][0]
-student.register_in_course()
-```
-#### Creating a new doctor and adding an assignment:
 ```python
 Doctor.create_new_doctor('dr_smith', 'password123', '654321', 'Dr. Smith', 'smith@example.com')
 doctor = [d for d in all_doctors if d.username == 'dr_smith'][0]
