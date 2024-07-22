@@ -1,5 +1,4 @@
 Educational Management System Documentation
-Educational Management System
 GitHub Repository: https://github.com/omarEssam-11/Educational-Management-System
 Table of Contents
 1. Introduction
